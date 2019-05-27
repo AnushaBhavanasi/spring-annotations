@@ -1,7 +1,5 @@
 package com.stackroute.domain;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -12,7 +10,6 @@ public class Actor {
 
     public Actor() {
     }
-
    public Actor(String actorName, String actorGender, int actorAge) {
         this.actorName = actorName;
         this.actorGender = actorGender;
